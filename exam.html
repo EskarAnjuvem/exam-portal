@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trial Image Container</title>
+    <link rel="stylesheet" href="trial.css">
+</head>
+<body>
+    
+    <p id="countdown">4:00</p>
+    <div class="contain" id="contain">
+        <img src="/Electrostatics-1/Q1.jpg" alt="" class="question" id="qImage">
+    </div>
+    <div>
+        <h3>Your answer for this Question : <span id="choice">Not Answered</span></h3>
+    </div>
+    <div class="options-box">
+        <span><input type="radio" name="option" id="unchck1" value="A">1)A</span>
+        <span><input type="radio" name="option" id="unchck2" value="B">2)B</span>
+        <span><input type="radio" name="option" id="unchck3" value="C">3)C</span>
+        <span><input type="radio" name="option" id="unchck4" value="D">4)D</span>
+    </div>
+    <div class="submit-box">
+        <button class = "todoButtons" id="markReview">Marked for Review</button>
+        <button class = "todoButtons" id="clear">Clear Choices</button>
+    </div>
+    <div class="fwd-bwd">
+        <button class = "todoButtons" id="load-next">Next Question</button>
+        <button class = "todoButtons" id="load-prev">Previous Question</button>
+    </div>
+    <div class="Final">
+        <button id="submit"><p>SUBMIT This Paper</p></button>
+
+    </div>
+    <script src="trial.js"></script>
+</body>
+</html>

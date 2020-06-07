@@ -1,0 +1,32 @@
+body{
+    margin:10px;
+    padding:0px;
+
+}
+h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 300;
+    display: inline;
+}
+.front{
+    width: fit-content;
+    margin:0 auto;
+    padding:10px;
+    background-color:rgb(44, 126, 219);
+    color:white;
+    display:flex;
+    flex-flow: column nowrap;
+    align-content: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+a{
+    text-decoration: none;
+    font-size: 18px;
+}
+button{
+    margin:0 auto;
+    padding:10px;
+    width: fit-content;
+
+}
