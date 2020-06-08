@@ -106,7 +106,7 @@ document.getElementById("load-prev").addEventListener("click", () => {
   }
     document.getElementById(
       "qImage"
-    ).src = `/Electrostatics-1/${qArr[questionNumber].qPic}`;
+    ).src = `./Electrostatics-1/${qArr[questionNumber].qPic}`;
     if (questionNumber == 0)
     document.getElementById("load-prev").disabled = true;
     document.getElementById("load-next").disabled = false;
