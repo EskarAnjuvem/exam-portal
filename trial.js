@@ -84,7 +84,7 @@ document.getElementById("load-next").addEventListener("click", () => {
   
   document.getElementById(
     "qImage"
-  ).src = `/Electrostatics-1/${qArr[questionNumber].qPic}`;
+  ).src = `./Electrostatics-1/${qArr[questionNumber].qPic}`;
   if (questionNumber == qArr.length - 1)
     document.getElementById("load-next").disabled = true;
     document.getElementById("choice").innerHTML = qArr[questionNumber].ansOption;
