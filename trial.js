@@ -136,7 +136,7 @@ document.getElementById("submit").addEventListener("click", () => {
   }
 });
 
-const startminutes = 4;
+const startminutes = 40;
 let time = startminutes*60;
 const countDown = document.getElementById('countdown');
 
