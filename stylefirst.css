@@ -9,7 +9,7 @@ h3{
     display: inline;
 }
 .front{
-    width: fit-content;
+    width: fit-content(500px);
     margin:0 auto;
     padding:10px;
     background-color:rgb(44, 126, 219);
