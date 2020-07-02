@@ -21,6 +21,7 @@ var q8 = new Question("Q8.jpg", "D", "Not Answered", false, 0);
 var q9 = new Question("Q9.jpg", "A", "Not Answered", false, 0);
 var q10 = new Question("Q10.jpg", "A", "Not Answered", false, 0);
 var q11 = new Question("Q11.jpg", "A", "Not Answered", false, 0);
+var q12 = new Question("Q12.jpg", "B", "Not Answered", false, 0);
 var qArr = [q1, q2, q3, q4, q5, q6, q7, q8, q9, q10, q11, q12];
 var questionNumber = 0;
 
